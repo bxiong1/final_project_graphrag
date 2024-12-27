@@ -1,0 +1,53 @@
+GrpahRAG:
+
+Average Scores:
+similarity: 0.4766
+coherence: 0.5721
+groundedness: 0.4766
+context_relevancy: 0.4766
+toxicity: 0.0052
+bias: 0.0000
+
+
+------------
+
+Plain:
+Average Scores:
+similarity: 0.3489
+coherence: 0.5828
+groundedness: 0.3489
+context_relevancy: 0.3489
+toxicity: 0.0018
+bias: 0.0000
+
+Average Scores:
+BLEU: 0.0048
+ROUGE-1: 0.1326
+ROUGE-2: 0.0468
+ROUGE-L: 0.1235
+BERTScore_Precision: 0.3322
+BERTScore_Recall: 0.5063
+BERTScore_F1: 0.3949
+
+Average GPT Similarity Score: 0.6210
+------------
+GrpahRAG+COT:
+Average Scores:
+similarity: 0.4771
+coherence: 0.6006
+groundedness: 0.4771
+context_relevancy: 0.4771
+toxicity: 0.0040
+bias: 0.0000
+
+
+Average Scores:
+BLEU: 0.0747
+ROUGE-1: 0.2977
+ROUGE-2: 0.1815
+ROUGE-L: 0.2964
+BERTScore_Precision: 0.3949
+BERTScore_Recall: 0.6748
+BERTScore_F1: 0.4925
+
+Average GPT Similarity Score: 0.8390

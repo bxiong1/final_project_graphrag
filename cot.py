@@ -4,7 +4,7 @@ import json
 def do_cot(question):
     # Set up OpenAI API key (replace YOUR_API_KEY with your actual key)
 
-    client = openai.OpenAI(api_key="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")
+    client = openai.OpenAI(api_key="<YOUR-API>")
     # Define the updated system prompt
     system_prompt = """
     You are a Netflix Movie Knowledge Assistant. Your role is to analyze complex queries related to Netflix movies and TV shows and break them down into smaller, logical subqueries that can be directly converted into Cypher queries. You should:

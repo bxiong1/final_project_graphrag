@@ -32,7 +32,7 @@ for i in range(len(questions)):
     
     retrieved_data_l = []
     if sub_queries_l is not None:
-        queries = sub_queries_l
+        queries = [query]+sub_queries_l
     else:
         queries = [query]
     for j in range(len(queries)):
@@ -59,4 +59,4 @@ for i in range(len(questions)):
     print("\n")
 generated_dict = {"Question":questions, "gen_output":generated_output}
 df_generated = pd.DataFrame(generated_dict)
-df_generated.to_csv("/workspace/data/qa_netflix_pair_generated_new_test_v2.csv", index=False)
+df_generated.to_csv("/workspace/data/qa_netflix_pair_generated_new_test_v3.csv", index=False)

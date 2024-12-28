@@ -19,7 +19,8 @@ Step-by-step instructions to install and set up the project locally.
    git clone https://github.com/bxiong1/final_project_graphrag.git
    ```
 2. Install necessary packages
-   ```pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
    ```
 3. Replace the API Key in the following files:
    ```
